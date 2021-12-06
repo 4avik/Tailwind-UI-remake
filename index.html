@@ -16,17 +16,32 @@
       <img class="logo" src="https://tailwindui.com/img/logos/workflow-mark-indigo-600.svg" alt="Workflow logo">
         <h2> Sign in to your account </h2>
         <p> Or 
-            <a> start your 14-day free trial </a>
+            <a href="#">start your 14-day free trial</a>
         </p>
     </div>
 
     <form class="mt-8 space-y-6" action="#">
         <input type="hidden" name="remember" value="true">
          <div>
-            <label for="email-address" class="sr-only">Email address</label>
+            <label for="email-address" class="email">Email address</label>
          </div>
+
          <div>
-            <label for="password" class="sr-only">Password</label>
+            <label for="password" class="password">Password</label>
+         </div>
+
+         <div>
+            <label for="remember-me" class="remember-me">Remember me</label>
+         </div>
+
+         <div>
+            <a href="#" class="forgot-pasw">Forgot your password?</a>
+         </div>
+
+         <div>
+            <button class="sign-in" type="submit">
+                <h4>Sign in</h4>
+            </button>
          </div>
     </form>
 

@@ -2,10 +2,35 @@
 .logo {
     width: auto;
     height: 48px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
-/* korruta kõik Tailwind'i suurused neljaga, siis saad vajalike pikslite arvu*/
+/* korruta kõik Tailwind'i suurused neljaga, siis saad vajalike pikslite arvu */
 
+.email {
 
+}
+
+.password {
+
+}
+
+.remember-me {
+    background-color: aqua;
+    /* ml-2 block text-sm text-gray-900 */
+    color: gray;
+}
+
+.forgot-pasw {
+/* font-medium text-indigo-600 hover:text-indigo-500 */
+}
+
+.sign.in {
+
+}
+
+/*
 .box1 {
 
     background-color: rgb(122, 54, 54);
@@ -24,3 +49,4 @@
     justify-content: center;
     align-items: center;
 }
+*/
