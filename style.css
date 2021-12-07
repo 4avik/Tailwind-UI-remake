@@ -17,7 +17,7 @@ text-decoration: none;
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    font-extrabold
+    /*font: extrabold;*/
 }
 
 .email {
@@ -30,7 +30,6 @@ text-decoration: none;
     color: gray;
     padding: 8px 12px;
     display: flex;
-
 }
 
 
@@ -48,7 +47,10 @@ text-decoration: none;
 }
 
 .remembr-forgor {
+    display: flex;
     flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
 }
 
 .checkbox {
@@ -56,14 +58,16 @@ width: 16px;
 height: 16px;
 border: 1px solid gray;
 border-radius: 2px;
+display: flex;
+align-items: center;
+justify-content: flex-start;
 }
 
 .remember-me {
     width: 95.84px;
     height: 20px;
-    background-color: aqua;
     /* ml-2 block text-sm text-gray-900 */
-    color: gray;
+    color: rgb(17, 24, 39);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -73,13 +77,20 @@ border-radius: 2px;
     /* font-medium text-indigo-600 hover:text-indigo-500 */
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: flex-end;
 }
 
-.sign.in {
+.sign-in {
+    width: 448px;
+    height: 38px;
     display: flex;
     align-items: center;
     justify-content: center;
+    background-color: rgb(79, 70, 229);
+    color: rgb(255, 255, 255);
+    border-color: transparent;
+    border-width: 1px;
+    border-radius: .375rem;
 }
 
 /*
